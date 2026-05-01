@@ -1,10 +1,10 @@
-# 🚀 Automated Crypto Data Pipeline (Local)
+# Automated Crypto Data Pipeline (Local)
 
 This project is an automated data pipeline that collects, processes, stores, and visualizes cryptocurrency price data (Bitcoin & Ethereum) from a public API. The pipeline is designed to run locally and supports periodic data updates using task scheduling.
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 The system performs:
 - Data extraction from API (CoinGecko)
@@ -18,7 +18,7 @@ This project demonstrates a simple **end-to-end ETL pipeline** with automation c
 
 ---
 
-## ⚙️ Tech Stack
+## Tech Stack
 
 - Python
 - requests (API handling)
@@ -29,7 +29,7 @@ This project demonstrates a simple **end-to-end ETL pipeline** with automation c
 
 ---
 
-## 🔄 Pipeline Flow
+## Pipeline Flow
 
 1. **Extract**
    - Fetch cryptocurrency prices (BTC & ETH) from CoinGecko API
@@ -52,19 +52,19 @@ This project demonstrates a simple **end-to-end ETL pipeline** with automation c
 
 ---
 
-## 📊 Features
+## Features
 
-- ✅ Automated data collection from API  
-- ✅ Duplicate data prevention  
-- ✅ SQLite-based data storage  
-- ✅ Time-series visualization  
-- ✅ Logging system  
-- ✅ Ready for scheduling (Task Scheduler / Cron)  
-- 🔄 Email reporting (optional)
+- Automated data collection from API  
+- Duplicate data prevention  
+- SQLite-based data storage  
+- Time-series visualization  
+- Logging system  
+- Ready for scheduling (Task Scheduler / Cron)  
+- Email reporting (optional)
 
 ---
 
-## 🖥️ How to Run (Local)
+## How to Run (Local)
 
 1. Clone repository:
 ```bash
