@@ -46,7 +46,7 @@ def process_data(btc_price, eth_price):
 
 #def send_report(file_gambar):
     msg = EmailMessage()
-    msg['Subject'] = '📊 Daily Crypto Report'
+    msg['Subject'] = 'Daily Crypto Report'
     msg['From'] = 'bot@datamine.id'
     msg['To'] = 'user@pribadi.com'
     msg.set_content('Halo! Berikut adalah update tren harga Bitcoin 10 sesi terakhir.')
@@ -86,10 +86,10 @@ try:
         waktu_log = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         f.write(f"[{waktu_log}] {status_insert} (Harga: (BTC: Rp {btc_now:,.0f} | ETH: Rp {eth_now:,.0f}))\n")
     
-    print(f'✅ {status_insert}')
+    print(f'{status_insert}')
 
 except Exception as e:
     # Backup log jika folder tujuan bermasalah
     with open(r'C:\Users\HUMAM\error_emergency.txt', "a") as f:
         f.write(f"[{datetime.now()}] Error: {str(e)}\n")
-    print(f"❌ Terjadi kesalahan: {e}")
+    print(f"Terjadi kesalahan: {e}")
