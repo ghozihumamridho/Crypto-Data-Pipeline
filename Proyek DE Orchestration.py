@@ -58,7 +58,7 @@ def process_data(btc_price, eth_price):
         msg.add_attachment(file_data, maintype=maintype, subtype=subtype, filename=file_gambar)
 
     with smtplib.SMTP('sandbox.smtp.mailtrap.io', 2525) as server:
-        server.login('7bd0e1680f5da3', '87efa7c023755d')
+        server.login('Your_Email_User', 'Your_Email_Password')
         server.send_message(msg)
 
 try:
